@@ -98,6 +98,7 @@ I did Exercise 17A.
 
 
 Exercise 18:
+It started on process 1, we see that it is the first process to get skipped.
 
 
 (Exercise 19 is a coding exercise)

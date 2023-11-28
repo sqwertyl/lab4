@@ -149,7 +149,7 @@ interrupt(registers_t *reg)
 		run(current);
 
 	case INT_SYS_USER2:
-		/* Your code here (if you want). */
+		*cursorpos++ = reg->reg_eax;
 		run(current);
 
 	case INT_CLOCK:

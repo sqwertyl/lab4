@@ -30,7 +30,7 @@ pmain(void)
 
 	for (i = 0; i < RUNCOUNT; i++) {
 		// Write characters to the console, yielding after each one.
-		*cursorpos++ = PRINTCHAR;
+		sys_printchar(PRINTCHAR);
 		sys_yield();
 	}
 	// exit instead of yield
